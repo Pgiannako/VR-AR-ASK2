@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -152,6 +152,7 @@ GameObject:
   - component: {fileID: 163549458}
   - component: {fileID: 163549457}
   - component: {fileID: 163549456}
+  - component: {fileID: 163549459}
   m_Layer: 0
   m_Name: Microphone FBX (1)
   m_TagString: Untagged
@@ -231,6 +232,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 163549454}
   m_Mesh: {fileID: 4300000, guid: 5f8e12c769e66624b9850e2554f1c7c4, type: 3}
+--- !u!114 &163549459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 163549454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5218e89cee0d11446ac10d884ff16b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &170076733
 GameObject:
   m_ObjectHideFlags: 0
@@ -4434,6 +4447,7 @@ GameObject:
   - component: {fileID: 7752011731910052190}
   - component: {fileID: 7762068694892437486}
   - component: {fileID: 7641529681872516988}
+  - component: {fileID: 7776372628513155963}
   m_Layer: 0
   m_Name: Soccer Ball
   m_TagString: Untagged
@@ -4441,6 +4455,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &7776372628513155963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7776372628513155962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5218e89cee0d11446ac10d884ff16b8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &7781575351215078672
 Transform:
   m_ObjectHideFlags: 0
@@ -4466,6 +4492,7 @@ GameObject:
   - component: {fileID: 8791200137919985582}
   - component: {fileID: 8791200137920755598}
   - component: {fileID: 8791200137921754446}
+  - component: {fileID: 8791200137919753103}
   m_Layer: 0
   m_Name: Tube_Valve
   m_TagString: Untagged
@@ -4473,6 +4500,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8791200137919753103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8791200137919753102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c716b9d64af681499e46bc704b9f8ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &8791200137919985582
 Transform:
   m_ObjectHideFlags: 0
@@ -4480,7 +4519,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8791200137919753102}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0089998245, y: 0.147, z: -0.279}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -4558,7 +4597,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8880474176591594122}
-  m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: 0.5}
+  m_LocalRotation: {x: 0.5, y: -0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: -0.019000053, y: 0.353, z: -0.474}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children:
@@ -4572,7 +4611,7 @@ Transform:
   - {fileID: 8880474176591371962}
   m_Father: {fileID: 1565352405}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 180, y: -90, z: -90}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: -90}
 --- !u!4 &8880474176591371952
 Transform:
   m_ObjectHideFlags: 0
@@ -4695,6 +4734,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8880474176591371946}
   - component: {fileID: 8880474176584216922}
+  - component: {fileID: 8880474176591594123}
   m_Layer: 0
   m_Name: F1
   m_TagString: Untagged
@@ -4702,6 +4742,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &8880474176591594123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8880474176591594122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78713b8882bda62448ce5a7e5ab23665, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8880474176591594128
 GameObject:
   m_ObjectHideFlags: 0
@@ -5371,6 +5423,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 9133236565046690951}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c716b9d64af681499e46bc704b9f8ed, type: 3}
+  m_Script: {fileID: 11500000, guid: 5218e89cee0d11446ac10d884ff16b8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
