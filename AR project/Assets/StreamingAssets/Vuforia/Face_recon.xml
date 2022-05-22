@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="wick" size="16.000000 21.450733" />
+    <ImageTarget name="freddie" size="16.000000 22.016001" />
+    <ImageTarget name="beyonce" size="16.000000 18.631733" />
+    <ImageTarget name="gabe" size="16.000000 24.000000" />
+    <ImageTarget name="hamilton" size="16.000000 24.000000" />
+    <ImageTarget name="ronaldo" size="16.000000 11.187970" />
+  </Tracking>
+</QCARConfig>
