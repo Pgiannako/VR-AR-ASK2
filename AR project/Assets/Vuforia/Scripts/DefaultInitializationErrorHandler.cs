@@ -187,6 +187,12 @@ public class DefaultInitializationErrorHandler : VuforiaMonoBehaviour
         return keyInfo;
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        { Application.Quit(); }
+    }
+
     void SetupGUIStyles()
     {
         // Called from Start() to determine physical size of device for text sizing
