@@ -61,3 +61,5 @@ crashlytics-build.properties
 AR project/Library/StateCache/Hierarchy/531b4f-mainStage.json
 AR project/Library/shadercompiler-UnityShaderCompiler.exe0.log
 AR project/Library/shadercompiler-UnityShaderCompiler.exe0.log
+AR project/Library/assetDatabase3
+*.log
