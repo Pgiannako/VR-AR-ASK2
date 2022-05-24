@@ -66,11 +66,11 @@ public class touchLink : MonoBehaviour
                     }
                     else if (touchedObject.tag == "micB")
                     {
-                        Application.OpenURL("https://open.spotify.com/artist/6vWDO969PvNqNYHIOW5v0m = BEYONCE");
+                        Application.OpenURL("https://www.youtube.com/c/beyonce");
                     }
                     else if (touchedObject.tag == "micF")
                     {
-                        Application.OpenURL("https://open.spotify.com/artist/1dfeR4HaWDbWqFHLkxsg1d =QUEEN");
+                        Application.OpenURL("https://www.youtube.com/channel/UCiMhD4jzUqG-IgPzUmmytRQ");
                     }
 
                 }
