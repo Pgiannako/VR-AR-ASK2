@@ -3,7 +3,19 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - gabe
+  - lewis
+  - freddie
+  - ronaldo
+  - beyonce
+  - john
+  - ball
+  - valve
+  - car
+  - gun
+  - micB
+  - micF
   layers:
   - Default
   - TransparentFX
